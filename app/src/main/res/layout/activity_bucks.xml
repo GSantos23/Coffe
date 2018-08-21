@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gers0n.coffe.Bucks">
+
+    <ListView
+        android:id="@+id/BksList"
+        android:layout_width="344dp"
+        android:layout_height="351dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:divider="@android:color/holo_green_dark"
+        android:dividerHeight="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/RadioSiren"
+        android:layout_width="344dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxDefaultSiren"
+            android:text="@string/SirenRadioDefault"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxCaloriesSiren"
+            android:text="@string/SirenRadioCalories"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxNameSiren"
+            android:text="@string/SirenRadioName"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxPriceSiren"
+            android:text="@string/SirenRadioPrice"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:onClick="GrandeList"
+        android:text="@string/btn_Grande"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioSiren" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/Tall"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioSiren" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:onClick="VentiList"
+        android:text="@string/btn_Venti"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/RadioSiren" />
+
+</android.support.constraint.ConstraintLayout>

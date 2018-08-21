@@ -1,0 +1,51 @@
+<resources>
+    <!--
+    Instead of harcode the string of boxes, buttons, etc., this section of code declare the strigs
+     that we are going to use
+-->
+    <string name="app_name">Coffe</string>
+    <string name="textView">Hale \u0026 Hearty Coffee :)</string>
+    <string name="textView2">About me:
+        \nI am GSantos23, a Hobbyist and a MS in Computer Enginnering student.
+        \nThis app is part of the final project for EE 3372 Software Design II.
+        \n\nIf you want to visit my Github page and discover more, click the button.
+    </string>
+    <string name="textView3">Types of Coffee</string>
+    <string name="steam">steam</string>
+    <string name="btn_About">About</string>
+    <string name="btn_Stores">Stores</string>
+    <string name="btn_Types">Types</string>
+    <string name="btn_Url">Visit</string>
+    <string name="Capuccino">Capuccino</string>
+    <string name="Americano">Americano</string>
+    <string name="Espresso">Espresso</string>
+    <string name="Flat_White">Flat White</string>
+    <string name="Iced_Coffee">Iced Coffee</string>
+    <string name="Latte">Latte</string>
+    <string name="Macchiato">Macchiato</string>
+    <string name="Mocha">Mocha</string>
+    <string name="Regular">Regular</string>
+    <string name="btn_Map">Location</string>
+    <string name="RadioName">Name</string>
+    <string name="RadioCalories">Calories</string>
+    <string name="RadioDefault">Default</string>
+    <string name="RadioPrice">Price</string>
+    <string name="SirenRadioName">Name</string>
+    <string name="SirenRadioCalories">Calories</string>
+    <string name="SirenRadioDefault">Default</string>
+    <string name="SirenRadioPrice">Price</string>
+    <string name="SirenRadioName2">Name</string>
+    <string name="SirenRadioCalories2">Calories</string>
+    <string name="SirenRadioDefault2">Default</string>
+    <string name="SirenRadioPrice2">Price</string>
+    <string name="SirenRadioName3">Name</string>
+    <string name="SirenRadioCalories3">Calories</string>
+    <string name="SirenRadioDefault3">Default</string>
+    <string name="SirenRadioPrice3">Price</string>
+    <string name="btn_Grande">Grande</string>
+    <string name="btn_Venti">Venti</string>
+    <string name="btn_Supreme">Supreme</string>
+    <string name="Tall">Tall</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_map_list">Map</string>
+</resources>

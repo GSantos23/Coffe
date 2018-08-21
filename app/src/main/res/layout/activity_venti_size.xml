@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gers0n.coffe.ventiSize">
+
+    <ListView
+        android:id="@+id/BkList3"
+        android:layout_width="344dp"
+        android:layout_height="376dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/holo_green_dark"
+        android:dividerHeight="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GContainer2" />
+
+    <RadioGroup
+        android:id="@+id/GContainer2"
+        android:layout_width="344dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/BkList3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxDefaultSiren3"
+            android:text="@string/SirenRadioDefault3"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxCaloriesSiren3"
+            android:text="@string/SirenRadioCalories3"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxNameSiren3"
+            android:text="@string/SirenRadioName3"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/holo_green_dark"
+            android:onClick="BoxPriceSiren3"
+            android:text="@string/SirenRadioPrice3"
+            android:textSize="12sp" />
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

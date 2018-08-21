@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.gers0n.coffe.storeList">
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="136dp"
+        android:onClick="mapLocate"
+        android:text="@string/btn_Map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/btn_Map" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="326dp"
+        android:layout_height="117dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:onClick="Jazz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jazzmans" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="326dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="64dp"
+        android:onClick="Siren"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:srcCompat="@drawable/starbucks" />
+</android.support.constraint.ConstraintLayout>
